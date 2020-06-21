@@ -24,7 +24,7 @@ namespace cynthia_webapi.Controllers
             fiverrItem.NvcDescription = "Teste";
 
 
-            return BadRequest();
+            return BadRequest(fiverrItem);
         }
     }
 }
