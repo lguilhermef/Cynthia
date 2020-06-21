@@ -31,6 +31,7 @@ namespace cynthia_webapi.Controllers
             FiverrItem fi3 = new FiverrItem();
             fi3.NvcDescription = "A emitir a partir do mui nobre Adivinho";
             fi3.Id = 2;
+            fi3.BitIsDone = true;
 
 
 

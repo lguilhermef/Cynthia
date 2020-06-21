@@ -7,24 +7,7 @@ class App extends Component {
 
   state = {
     isLoaded: false,
-    arrFiverrItem: [
-      {
-        id: 1,
-        client: 'Eu',
-        intPriority: 1,
-        nvcDescription: 'teste',
-        dtmDeadline: '22-06-2020',
-        bitIsDone: false
-      },
-      {
-        id: 2,
-        client: 'Lili',
-        intPriority: 2,
-        nvcDescription: 'Prenda',
-        dtmDeadline: '22-06-2020',
-        bitIsDone: false
-      }
-    ]
+    arrFiverrItem: []
   }
 
   componentDidMount() {

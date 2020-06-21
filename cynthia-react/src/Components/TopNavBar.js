@@ -4,8 +4,11 @@ import FiverrItem from './FiverrItem'
 class TopNavBar extends Component {
 
     render() {
-        return <div>TESTE</div>
-    }
+        return ([
+            <button>Back</button>,
+            <button>Home</button>
+        ])
+    };
 }
 
 export default TopNavBar;
