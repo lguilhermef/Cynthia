@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using cynthia_webapi.Models.Db;
+using Microsoft.AspNetCore.Cors;
 
 namespace cynthia_webapi.Controllers
 {
