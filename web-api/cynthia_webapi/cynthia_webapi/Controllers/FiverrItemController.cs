@@ -25,12 +25,19 @@ namespace cynthia_webapi.Controllers
             fiverrItem.NvcDescription = "Teste";
 
             FiverrItem fi2 = new FiverrItem();
-            fi2.NvcDescription = "RESULTOU";
+            fi2.NvcDescription = "Prenda Lili! OLÁ MENINOS!!";
             fi2.Id = 1;
+
+            FiverrItem fi3 = new FiverrItem();
+            fi3.NvcDescription = "A emitir a partir do mui nobre Adivinho";
+            fi3.Id = 2;
+
+
 
             List<FiverrItem> lstFiverrItems = new List<FiverrItem>();
             lstFiverrItems.Add(fiverrItem);
             lstFiverrItems.Add(fi2);
+            lstFiverrItems.Add(fi3);
 
             return Ok(lstFiverrItems);
         }

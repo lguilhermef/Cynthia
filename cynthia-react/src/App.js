@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import LstFiverrItem from './Components/LstFiverrItem';
+import TopNavBar from './Components/TopNavBar';
 
 class App extends Component {
 
@@ -51,6 +52,7 @@ class App extends Component {
       
         return (
           <div>
+            <TopNavBar/>
             <LstFiverrItem arrFiverrItem={this.state.arrFiverrItem} />
           </div>
       )
